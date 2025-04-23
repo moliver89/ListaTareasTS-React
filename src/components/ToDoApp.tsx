@@ -26,7 +26,7 @@ const ToDoApp = () => {
           type='text'
           value={nuevaTarea}
           onChange={(e) => setNuevaTarea(e.target.value)}
-          placeholder='Nueva Tarea'
+          placeholder='Nueva Tarea del dia'
         />
         <button onClick={handleAddTask}>Enviar</button>
       </div>
